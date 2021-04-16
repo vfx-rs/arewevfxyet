@@ -1,0 +1,54 @@
+[[items]]
+name = "alembic"
+source = "crates"
+categories = ["caches"]
+
+[[items]]
+name = "materialx"
+source = "crates"
+categories = ["materials"]
+
+[[items]]
+name = "opencolorio"
+source = "crates"
+categories = ["images"]
+
+[[items]]
+name = "openexr-core"
+source = "crates"
+categories = ["images"]
+
+[[items]]
+name = "openimageio"
+source = "crates"
+categories = ["images"]
+
+[[items]]
+name = "openshadinglanguage"
+source = "crates"
+categories = ["materials"]
+
+[[items]]
+name = "opensubdiv"
+source = "crates"
+categories = ["geometry"]
+
+[[items]]
+name = "opentimelineio"
+source = "crates"
+categories = ["editorial"]
+
+[[items]]
+name = "openvdb"
+source = "crates"
+categories = ["caches"]
+
+[[items]]
+name = "ptex"
+source = "crates"
+categories = ["materials"]
+
+[[items]]
+name = "seexpr"
+source = "crates"
+categories = ["expressions"]

@@ -1,0 +1,128 @@
+.masthead .text.container {
+    margin: 3em 0;
+}
+
+.masthead h1.header {
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+    margin: 1.2em 0;
+}
+
+.masthead .ui.menu .toc.item {
+    display: none;
+}
+
+.horizontal.divider.header {
+    margin: 0;
+}
+
+.horizontal.divider.header a {
+    padding: 2em 1em; 
+}
+
+.vertical.stripe, .vertical.stripe .text.container {
+    margin: 8em 0em;
+}
+
+.vertical.stripe .text.container p {
+    font-size: 1.33em;
+}
+
+.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+
+.ui.card .image {
+    height: 256px;
+}
+
+.ui.card > .image > img, .ui.cards > .card > .image > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.ui.horizontal.list > .item {
+    margin-left: 0;
+    margin-right: 0.5em;
+}
+
+@media only screen and (max-width: 991px) {
+    .masthead .ui.menu a.item {
+        display: none;
+    }
+
+    .masthead .ui.menu .toc.item {
+        display: flex;
+        border-radius: 0;
+    }
+
+    .masthead .ui.menu .toc.item .icon {
+        margin: 0;
+    }
+
+    .masthead h1.header {
+        font-size: 2em;
+    }
+
+    .masthead h2 {
+        font-size: 1.5em;
+    }
+
+    .vertical.stripe, .vertical.stripe .text.container {
+        margin: 4em 0em;
+    }
+
+    .vertical.stripe .text.container p {
+        font-size: 1.1em;
+    }
+}
+
+/* Colors overridden to avoid inaccessible contrast levels */
+
+a {
+    color: #397AB9;
+}
+
+.ui.card > .extra,
+.ui.cards > .card > .extra,
+.ui.card .meta,
+.ui.cards > .card .meta,
+.ui.card .meta > a:not(.ui),
+.ui.cards > .card .meta > a:not(.ui) {
+    color: #767676;
+}
+
+.ui.primary.button, .ui.primary.buttons .button {
+    background-color: #1F7BC1;
+}
+
+.nolist {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+nav a:not(.button) {
+    height: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.2s;
+
+    &:hover, &:focus {
+        color: rgba($color: #fff, $alpha: 0.5);
+        text-decoration: underline;
+    }
+}

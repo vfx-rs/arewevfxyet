@@ -1,0 +1,5 @@
+[[contributors]]
+name = "propersquid"
+links = { twitter = "propersquid", github = "scott-wilson", home = "https://propersquid.com" }
+about = "Pipeline TD"
+description = "Creates software to help artists be productive."
