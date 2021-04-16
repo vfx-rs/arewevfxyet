@@ -22,7 +22,7 @@ jobs:
     - run: ./zola --version
     - run: ./zola build
     - name: Deploy
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/main'
       uses: crazy-max/ghaction-github-pages@v1
       with:
         build_dir: public
