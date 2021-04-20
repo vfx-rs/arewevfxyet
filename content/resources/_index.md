@@ -1,6 +1,6 @@
 +++
 title = "Resources"
-description = "Books, guides and videos about Rust VFX development."
+description = "Books, guides and videos about Rust game development."
 page_template = "categories/page.html"
 
 [extra]

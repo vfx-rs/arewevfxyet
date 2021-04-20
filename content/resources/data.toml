@@ -1,0 +1,78 @@
+
+[[items]]
+name = "Awesome Rust"
+description = "A curated list of Rust code and resources, inspired by other awesome lists"
+categories = ["lists"]
+homepage_url = "//github.com/kud1ing/awesome-rust"
+
+[[items]]
+name = "Awesome wgpu"
+description = "A curated list of wgpu code and resources"
+categories = ["lists"]
+homepage_url = "//github.com/rofrol/awesome-wgpu"
+
+[[items]]
+name = "Building WebGPU with Rust"
+description = "A talk about wgpu's architecture and implementation (FOSDEM 2020)"
+categories = ["videos"]
+homepage_url = "//fosdem.org/2020/schedule/event/rust_webgpu"
+
+[[items]]
+name = "Framebuffers, WGPU and Rust"
+description = "Introduction to WGPU and high-level rendering terminology"
+categories = ["articles"]
+homepage_url = "//nyxtom.dev/2020/10/08/framebuffers/"
+
+[[items]]
+name = "Graphics by Squares"
+description = "A gfx-rs tutorial"
+categories = ["tutorials"]
+homepage_url = "//suhr.github.io/gsgt"
+
+[[items]]
+name = "Learn OpenGL with Rust"
+description = "A Rust port of the code for the excellent OpenGL tutorials at learnopengl.com"
+categories = ["tutorials"]
+homepage_url = "//github.com/bwasty/learn-opengl-rs"
+
+[[items]]
+name = "Learn Wgpu"
+description = "Tutorial for learning Rust graphics programming using the wgpu-rs library"
+categories = ["tutorials"]
+homepage_url = "//sotrh.github.io/learn-wgpu"
+
+[[items]]
+name = "Project Necromancy: How to Revive a Dead Rust Project"
+description = "A talk about reviving space_shooter_rs through effective planning, refactoring, and documentation (RustFest Global 2020)"
+categories = ["videos"]
+homepage_url = "//youtu.be/qoCryIy4bFE"
+
+[[items]]
+name = "Rust by Example"
+description = "A collection of runnable examples that illustrate various Rust concepts and standard libraries"
+categories = ["books"]
+homepage_url = "//doc.rust-lang.org/stable/rust-by-example/"
+
+[[items]]
+name = "The Rust Book"
+description = "The Rust language official book"
+categories = ["books"]
+homepage_url = "//doc.rust-lang.org/book/"
+
+[[items]]
+name = "Triangle from Scratch"
+description = "A series about drawing a triangle without using any outside crates"
+categories = ["tutorials", "books"]
+homepage_url = "//rust-tutorials.github.io/triangle-from-scratch"
+
+[[items]]
+name = "Winit Rust and Pixels"
+description = "Introduction to Winit Rust and Pixels (hardware accelerated framebuffer)"
+categories = ["articles"]
+homepage_url = "//nyxtom.dev/2020/10/07/winit-rust/"
+
+[[items]]
+name = "Writing a Raytracer in Rust"
+description = "3-part series of posts on writing a simple raytracer in Rust"
+categories = ["articles"]
+homepage_url = "//bheisler.github.io/post/writing-raytracer-in-rust-part-1/"

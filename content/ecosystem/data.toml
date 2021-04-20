@@ -1,7 +1,7 @@
 [[items]]
 name = "alembic"
 source = "crates"
-categories = ["caches"]
+categories = ["caches", "mesh"]
 
 [[items]]
 name = "materialx"
@@ -11,17 +11,17 @@ categories = ["materials"]
 [[items]]
 name = "opencolorio"
 source = "crates"
-categories = ["images"]
+categories = ["2drendering"]
 
 [[items]]
 name = "openexr-core"
 source = "crates"
-categories = ["images"]
+categories = ["2drendering"]
 
 [[items]]
 name = "openimageio"
 source = "crates"
-categories = ["images"]
+categories = ["2drendering"]
 
 [[items]]
 name = "openshadinglanguage"
@@ -31,7 +31,7 @@ categories = ["materials"]
 [[items]]
 name = "opensubdiv"
 source = "crates"
-categories = ["geometry"]
+categories = ["mesh"]
 
 [[items]]
 name = "opentimelineio"
@@ -51,4 +51,623 @@ categories = ["materials"]
 [[items]]
 name = "seexpr"
 source = "crates"
-categories = ["expressions"]
+categories = ["scripting"]
+
+[[items]]
+name = "image"
+source = "crates"
+categories = ["2drendering"]
+
+[[items]]
+name = "lyon"
+source = "crates"
+categories = ["2drendering"]
+
+[[items]]
+name = "blend"
+source = "crates"
+categories = ["3dformatloaders"]
+
+[[items]]
+name = "collada"
+source = "crates"
+categories = ["3dformatloaders"]
+
+[[items]]
+name = "fbxcel-dom"
+source = "crates"
+categories = ["3dformatloaders"]
+
+[[items]]
+name = "gltf"
+source = "crates"
+categories = ["3dformatloaders"]
+
+[[items]]
+name = "obj"
+source = "crates"
+categories = ["3dformatloaders"]
+
+[[items]]
+name = "obj-rs"
+source = "crates"
+categories = ["3dformatloaders"]
+
+[[items]]
+name = "tobj"
+source = "crates"
+categories = ["3dformatloaders"]
+
+[[items]]
+name = "wavefront_obj"
+source = "crates"
+categories = ["3dformatloaders"]
+
+[[items]]
+name = "ash"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "euc"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "gfx"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "gfx-hal"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "gl"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "glfw"
+source = "crates"
+categories = ["3drendering", "windowing"]
+
+[[items]]
+name = "glium"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "glow"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "glutin"
+source = "crates"
+categories = ["3drendering", "windowing"]
+
+[[items]]
+name = "grr"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "luminance"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "miniquad"
+source = "crates"
+categories = ["3drendering", "2drendering"]
+
+[[items]]
+name = "rafx"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "rendology"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "rendy"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "screen-13"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "three"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "vk-mem"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "vk-sync"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "vulkano"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "wgpu"
+source = "crates"
+categories = ["3drendering"]
+
+[[items]]
+name = "pareen"
+source = "crates"
+categories = ["animation"]
+
+[[items]]
+name = "bvh"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "cgmath"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "dual_quaternion"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "euclid"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "euler"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "generic-matrix"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "glam"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "mint"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "nalgebra"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "optimath"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "oxygen_quark"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "palette"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "quaternion"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "splines"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "ultraviolet"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "uniform-cubic-splines"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "vecmath"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "vek"
+source = "crates"
+categories = ["math"]
+
+[[items]]
+name = "building-blocks"
+source = "crates"
+categories = ["mesh", "tools"]
+
+[[items]]
+name = "density-mesh-core"
+source = "crates"
+categories = ["mesh", "tools"]
+
+[[items]]
+name = "density-mesh-image"
+source = "crates"
+categories = ["mesh", "tools"]
+
+[[items]]
+name = "hexasphere"
+source = "crates"
+categories = ["mesh", "tools"]
+
+[[items]]
+name = "meshopt"
+source = "crates"
+categories = ["mesh"]
+
+[[items]]
+name = "olson-sean-k/plexus"
+source = "github"
+categories = ["mesh"]
+homepage_url = "https://plexus.rs"
+
+[[items]]
+name = "polyhedron-ops"
+source = "crates"
+categories = ["mesh"]
+
+[[items]]
+name = "tessellation"
+source = "crates"
+categories = ["mesh"]
+
+[[items]]
+name = "voronator"
+source = "crates"
+categories = ["mesh", "tools"]
+
+[[items]]
+name = "collider"
+source = "crates"
+categories = ["physics"]
+
+[[items]]
+name = "liquidfun"
+source = "crates"
+categories = ["physics"]
+
+[[items]]
+name = "mgf"
+source = "crates"
+categories = ["physics"]
+
+[[items]]
+name = "physme"
+source = "crates"
+categories = ["physics"]
+
+[[items]]
+name = "physx"
+source = "crates"
+categories = ["physics"]
+
+[[items]]
+name = "rapier2d"
+source = "crates"
+categories = ["physics"]
+
+[[items]]
+name = "rapier3d"
+source = "crates"
+categories = ["physics"]
+
+[[items]]
+name = "salva2d"
+source = "crates"
+categories = ["physics"]
+
+[[items]]
+name = "salva3d"
+source = "crates"
+categories = ["physics"]
+
+[[items]]
+name = "dyon"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "glsp"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "gluon"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "dyon"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "hlua"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "ketos"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "luajit"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "mun-lang/mun"
+source = "github"
+categories = ["scripting"]
+homepage_url = "https://mun-lang.org"
+
+[[items]]
+name = "passerine"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "rhai"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "rlua"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "rune"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "rustpython"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "torchbear"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "wlambda"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "pyo3"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "cpython"
+source = "crates"
+categories = ["scripting"]
+
+[[items]]
+name = "crevice"
+source = "crates"
+categories = ["material"]
+
+[[items]]
+name = "crevice"
+source = "crates"
+categories = ["material"]
+
+[[items]]
+name = "EmbarkStudios/rust-gpu"
+source = "github"
+categories = ["material"]
+
+[[items]]
+name = "include-merkle"
+source = "crates"
+categories = ["material"]
+
+[[items]]
+name = "inline-spirv"
+source = "crates"
+categories = ["material"]
+
+[[items]]
+name = "shaderc"
+source = "crates"
+categories = ["material"]
+
+[[items]]
+name = "spirq"
+source = "crates"
+categories = ["material"]
+
+[[items]]
+name = "spirv-reflect"
+source = "crates"
+categories = ["material"]
+
+[[items]]
+name = "ab_glyph"
+source = "crates"
+categories = ["textrendering"]
+
+[[items]]
+name = "bmfont"
+source = "crates"
+categories = ["textrendering"]
+
+[[items]]
+name = "fontdue"
+source = "crates"
+categories = ["textrendering"]
+
+[[items]]
+name = "rusttype"
+source = "crates"
+categories = ["textrendering"]
+
+[[items]]
+name = "assets_manager"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "basis-universal"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "const-tweaker"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "ezing"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "huxingyi/dust3d"
+source = "github"
+categories = ["tools"]
+gitter_url = "https://dust3d.discourse.group/"
+homepage_url = "https://dust3d.org/"
+
+[[items]]
+name = "keyframe"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "modulator"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "noise"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "profiling"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "rectangle-pack"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "superluminal-perf"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "texture-synthesis"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "wrapping_coords2d"
+source = "crates"
+categories = ["tools"]
+
+[[items]]
+name = "conrod_core"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "egui"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "fungui"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "iced"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "imgui"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "imgui-ext"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "imgui-inspect"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "immi"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "nuklear-rust"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "rsaarelm/vitral"
+source = "github"
+categories = ["ui"]
+
+[[items]]
+name = "sciter-rs"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "rust_qt_binding_generator"
+source = "crates"
+categories = ["ui"]
+
+[[items]]
+name = "winit"
+source = "crates"
+categories = ["windowing"]
